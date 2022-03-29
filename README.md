@@ -9,7 +9,7 @@
 | Matkul= Pemrograman Web     |
 |=============================|
 
-## 1. Membuat Ordered dan Unorderd List
+## 1. Membuat Ordered List
 ![Membuat_List](screenshot/Membuat_List.PNG)
 
 Ini adalah sebuah hasil dari texs Kodingan tag membuat Ordered List<p>
@@ -43,43 +43,49 @@ Ini adalah sebuah hasil dari texs Kodingan tag membuat Ordered List<p>
 </html>
 ```
 
-## 2. Membuat Judul
-![Membuat_Judul](screenshot/Membuat_Judul.PNG)
+## 2. Membuat Unorderd List
+![Unorderd_List](screenshot/order_list.PNG)
 
-Ini adalah sebuah hasil dari texs Kodingan tag membuat judul<p>
- Dan Ini Adalah program codingan dari tag membuat judul:
+Ini adalah sebuah hasil dari texs Kodingan tag membuat Unorderd List<p>
+ Dan Ini Adalah program codingan dari tag membuat Unorderd List:
 
  ```html
 
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Membuat Judul</title>
-    <style>
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body bgcolor="Gainsboro">
+<header>
+<h1><center>Membuat List Mata Kuliah</center></h1>
 
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
+<section id="order-list">
+    <h2>Nama Mata Kuliah</h2>
+    <ol>
+    <li>Pemrograman Web</li>
+    <li>Sistem Basis Data</li>
+    <li>Bisnis Elektronik</li>
+    <li>Matematika Dsikrit</li>
+    <li>Algoritma</li>
+    </ol>
+    </section>
 
-    </style>
-    </head>
-    <body>
-<!-- judul paragraf pertama -->
-<h1><center>Biodata Faris Syahluthfi</center></h1>
+    <section id="unorder-list">
+        <h2>Unordered List</h2>
+        <li>Pemrograman Web</li>
+    <li>Sistem Basis Data</li>
+    <li>Bisnis Elektronik</li>
+    <li>Matematika Dsikrit</li>
+    <li>Algoritma</li>
+        </ul>
+        </section>
 
-
-<!-- judul paragraf kedua -->
-<h2><center>My Profil</center></h2>
-
+</header>
 </body>
-    
-</HTMl>
+</html>
  ```
 
 

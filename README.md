@@ -173,166 +173,122 @@ Ini adalah sebuah hasil dari texs Kodingan tag membuat Tabel<p>
 </html>
 ```
 
-## 4. Menyisipkan Gambar
-![Menyisipkan_Gambar](screenshot/Menyisipkan_Gambar.PNG)
+## 4. Membuat Form
+![Membuat_Form](screenshot/Membuat_Form.PNG)
 
-Ini adalah sebuah hasil dari texs Kodingan tag menyisipkan gambar<p>
- Dan Ini Adalah program codingan dari tag menyisipkan gambar:
-
- ```html
-
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Menyisipkan gambar</title>
-    <style>
-body {
-
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
-
-    </style>
-    </head>
-    <body>
-
-<!-- sub judul paragraf -->
-<h1>Menambahkan Gambar</h1>
-<!-- menambahkan gambar pada dokumen -->
-<p>
-    <img src="Farisss.jpg" alt="Foto_Faris_Syahluthfi" style="width:300px;height:200px;" align="middle">
- </p>
-
-    </body>
-    
-</HTMl>
-
-```
-
-## 5. Menambahkan Hyperlink
-![Menambahkan_Hyperlink](screenshot/Menambahkan_Hyperlink.PNG)
-
-Ini adalah sebuah hasil dari texs Kodingan tag menambahkan hyperlink<p>
- Dan Ini Adalah program codingan dari tag menambahkan hyperlink:
+Ini adalah sebuah hasil dari texs Kodingan tag Membuat Form<p>
+ Dan Ini Adalah program codingan dari tag Membuat Form:
 
  ```html
 
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Lab1Web__Faris</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body bgcolor="brown">
     <style>
-body {
+        form p > label {
+        display: inline-block;
+        width: 100px;
+        }
 
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
+        h1 {
+	    color: #f0e9ee;
+        font-size: 20px;
+        text-align: center;
+        }
 
-    </style>
-    </head>
-    <body>
-	
-	<!-- menambahkan link navigasi -->
-<nav>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Judul.html">Membuat judul</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Paragraf.html">Membuat Paragraf</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Memformat_teks.html">Memformat teks</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Menyisipkan_Gambar.html">Meyisipkan gambar</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Lab1_Web.html">Halaman Web Eksternal Google</a>
-    </nav>
-    <hr>
+        label {
+	    color: #f0e9ee;
+        font-size: 15px;
+        text-align: center;
+        }
 
+        p1 {
+	    color: #f0e9ee;
+        font-size: 20px;
+        text-align: center;
+        }
 
-    </body>
-    
-</HTMl>
+        legend {
+	    color: #f0e9ee;
+        font-size: 20px;
+        text-align: center;
+        }
 
-```
+        form input[type="text"], form textarea {
+        border: 1px solid #197a43;
+        }
 
-## Full Program
-![Full_Program](screenshot/Full_Program.PNG)
+        form input[type="submit"] {
+        border: 1px solid #197a43;
+        background-color: #197a43;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 15px;
+        }
 
-Ini adalah sebuah hasil Program yang sudah saya buat<p>
- Dan Ini Adalah program codingannya:
+        </style>
 
- ```html
-
- <!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Lab1Web__Faris</title>
-    <style>
-body {
-
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
-
-    </style>
-    </head>
-    <body>
-
-        <marquee bgcolor="cyan" width="1500">WELCOME TO MY WEB FARIS SYAHLUTHFI</marquee>
-
-    <!-- Ini adalah paragraf kesatu -->
-    <h1><center>Biodata Faris Syahluthfi</center></h1>
-        <p align=”justify,”>
-            <br><b>Nama: Faris Syahluthfi</b></br>
-            <br><b>Tempat: Jakarta</b></br>
-            <br><b>Tanggal Lahir: 06 April 2002</b></br>
-            <br><b>Alamat: Indramayu</b></br>
-            <br> 
-        </p>
         
-    <!-- Ini adalah paragraf kedua -->
-    <h2><center>My Profil</center></h2>
+<header>
+<h1><center>PENDAFTARAN MAHASISWA BARU UNIVERSITAS PELITA BANGSA</center></h1>
 
-       
-    <p align=left,”>
-            <br><center><b>Assalamualaikum...</b></center></br>
-            <br><b>Halo semuanya</b> perkenalkan nama saya <b>Faris Syahluthfi.</b>
-            Saya Mahasiswa <b><u>Universitas Pelita bangsa</u></b> prodi <i><b>Teknik Informatika.</b></i> </br>
-            <br>Alhamdulillah sekarang saya sudah kuliah <b><u>Semester 4</u></b> </br>
-            <br>Sekarang saya sedang belajar tentang <b>HTML</b> yang diajarkan oleh dosen saya yang bernama <b><i>Bapak Agung Nugroho, S.Kom., M.Kom.</i></i></b>
-            yang mengajar matakuliah <b><u>Pemrograman Web</u></b></p> <br>
+<form action="proses.php" method="post">
+    <fieldset>
+    <legend><center><b>Registrasi Mahasiswa</b></center></legend>
+    <p1><center><i>SILAHKAN ISI DATA DISINI...</i></center></p1>
 
-        </p>
-
-        <!-- sub judul paragraf -->
-<h3>Menambahkan Gambar</h3>
-<!-- menambahkan gambar pada dokumen -->
-<p>
-    <img src="Foto_Faris.JPG" width="200" title="Foto Faris">
+    <p>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
     </p>
 
-<!-- menambahkan link navigasi -->
-<nav>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Judul.html">Membuat judul</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Paragraf.html">Membuat Paragraf</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Memformat_teks.html">Memformat teks</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Menyisipkan_Gambar.html">Meyisipkan gambar</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Lab1_Web.html">Halaman Web Eksternal Google</a>
-    </nav>
-    <hr>
+    <p>
+        <label for="Tempat_Lahir">Tempat Lahir:</label>
+        <input type="text" id="tempat_lahir" name="tempat_lahir">
+    </p>
 
+    <p>
+        <label for="tgl_lahir">Tanggal Lahir:</label>
+        <input type="date" name="tgl_lahir" required><br>
+    </p>
 
-    </body>
-    
-</HTMl>
+    <p>
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+    </p>
+
+    <p>
+        <label>Jenis Kelamin:</label>
+        <input id="jk_l" type="radio" name="kelamin" value="L" /><label
+        for="jk_l">Laki-laki</label>
+        <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+        for="jk_p">Perempuan</label>
+    </p>
+
+    <p>
+        
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        
+    </p>
+
+<p><input type="submit" value="DAFTAR"></p>
+</fieldset>
+</form>
+
+</header>
+</body>
+</html>
 
 ```
+

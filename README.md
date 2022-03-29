@@ -89,64 +89,88 @@ Ini adalah sebuah hasil dari texs Kodingan tag membuat Unorderd List<p>
  ```
 
 
-## 3. Memformat teks
-![Memformat_teks](screenshot/Memformat_Teks.PNG)
+## 3. Membuat Tabel
+![Tabel](screenshot/Membuat_Tabel.PNG)
 
-Ini adalah Contoh dari Teks format seperti Menambahkan (Span) Untuk Warna Teks atau sebuah background
+Ini adalah sebuah hasil dari texs Kodingan tag membuat Tabel<p>
+ Dan Ini Adalah program codingan dari tag membuat Tabel:
+
 ## Contoh Kode
 ```Html
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Memformat teks</title>
-    <style>
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body bgcolor="grey">
+<header>
+<h1><center>Membuat Table</center></h1>
+</header>
+<p><b>DATA MAHASISWA UNIVERSITAS PELITA BANGSA</b></p>
 
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
+<table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+    <tr style="background-color: rgb(151, 35, 35);">
+    <th>No.</th>
+    <th>Nama</th>
+    <th>Fakultas</th>
+    <th>Program Studi</th>
+    <th>Kelas</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>1.</td>
+    <td>Faris</td>
+    <td rowspan="3">Teknik</td>
+    <td>Teknik Informatika</td>
+    <td>Reguler Pagi</td>
+    </tr>
 
-    </style>
-    </head>
-    <body>
+    <tr>
+    <td>2.</td>
+    <td>Farhan</td>
+    <td>Teknik Industri</td>
+    <td>Reguler malam</td>
+    </tr>
 
-        <marquee bgcolor="cyan" width="1500">WELCOME TO MY WEB FARIS SYAHLUTHFI</marquee>
+    <tr>
+    <td>3.</td>
+    <td>Farel</td>
+    <td>Teknik Lingkungan</td>
+    <td>Wekend</td>
+    </tr>
 
-    <!-- Ini adalah paragraf kesatu -->
-    <h1><center>Biodata Faris Syahluthfi</center></h1>
-        <p align=”justify,”>
-            <br><b>Nama: Faris Syahluthfi</b></br>
-            <br><b>Tempat: Jakarta</b></br>
-            <br><b>Tanggal Lahir: 06 April 2002</b></br>
-            <br><b>Alamat: Indramayu</b></br>
-            <br> 
-        </p>
-        
-    <!-- Ini adalah paragraf kedua -->
-    <h2><center>My Profil</center></h2>
-     </p>   
-    <p align=left,”>
-            <br><center><b>Assalamualaikum...</b></center></br>
-            <br><b>Halo semuanya</b> perkenalkan nama saya <b>Faris Syahluthfi.</b>
-            Saya Mahasiswa <b><u>Universitas Pelita bangsa</u></b> prodi <i><b>Teknik Informatika.</b></i> </br>
-            <br>Alhamdulillah sekarang saya sudah kuliah <b><u>Semester 4</u></b> </br>
-            <br>Sekarang saya sedang belajar tentang <b>HTML</b> yang diajarkan oleh dosen saya yang bernama <b><i>Bapak Agung Nugroho,S.Kom.,M.Kom.</i></i></b>
-            yang mengajar matakuliah <b><u>Pemrograman Web</u></b></p> <br>
-
-        </p>
-
-
-
-
-    </body>
+    <tr>
+        <td>4.</td>
+        <td>Anisa</td>
+        <td rowspan="3">Managemen</td>
+        <td>Managemen Akuntansi</td>
+        <td>Reguler Pagi</td>
+        </tr>
     
-</HTMl>
+        <tr>
+        <td>5.</td>
+        <td>Ayu</td>
+        <td>Managemen Perkantoran</td>
+        <td>Reguler malam</td>
+        </tr>
+    
+        <tr>
+        <td>6.</td>
+        <td>Amel</td>
+        <td>Managemen Bisnis</td>
+        <td>Wekend</td>
+        </tr>
 
+
+    </tbody>
+    </table>
+
+</body>
+</html>
 ```
 
 ## 4. Menyisipkan Gambar

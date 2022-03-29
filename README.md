@@ -9,53 +9,38 @@
 | Matkul= Pemrograman Web     |
 |=============================|
 
-## 1. Membuat Paragraf
-![Membuat_Paragraf](screenshot/Membuat_Paragraf.PNG)
+## 1. Membuat Ordered dan Unorderd List
+![Membuat_List](screenshot/Membuat_List.PNG)
 
-Ini adalah sebuah hasil dari texs Kodingan tag membuat paragraf<p>
- Dan Ini Adalah program codingan dari tag membuat paragraf:
+Ini adalah sebuah hasil dari texs Kodingan tag membuat Ordered List<p>
+ Dan Ini Adalah program codingan dari tag Ordered List:
 
 ```html
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Membuat Paragraf</title>
-    <style>
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body bgcolor="Gainsboro">
+<header>
+<h1><center>Membuat List Mata Kuliah</center></h1>
 
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
+<section id="order-list">
+    <h2>Nama Mata Kuliah</h2>
+    <ol>
+    <li>Pemrograman Web</li>
+    <li>Sistem Basis Data</li>
+    <li>Bisnis Elektronik</li>
+    <li>Matematika Dsikrit</li>
+    <li>Algoritma</li>
+    </ol>
+    </section>
 
-    </style>
-    </head>
-    <body>
-<!-- Ini adalah paragraf kesatu -->
-<p align=”justify,”>
-    Nama: Faris Syahluthfi
-    Tempat: Jakarta
-    Tanggal Lahir: 06 April 2002
-    Alamat: Indramayu
-    </p>
-
-    <!-- Ini adalah paragraf kedua -->
-    <p align=left,”>
-        Assalamualaikum...
-        Halo semuanya perkenalkan nama saya Faris Syahluthfi. Saya Mahasiswa Universitas Pelita bangsa prodi Teknik Informatika.
-        Alhamdulillah sekarang saya sudah kuliah Semester 4
-        Sekarang saya sedang belajar tentang HTMLyang diajarkan oleh dosen saya yang bernama Bapak Agung Nugroho,S.Kom.,M.Kom.
-        yang mengajar matakuliah Pemrograman Web </p>
-
-
-
-    </body>
-    
-</HTMl>
+</header>
+</body>
+</html>
 ```
 
 ## 2. Membuat Judul
